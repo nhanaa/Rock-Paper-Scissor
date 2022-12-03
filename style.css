@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,221,148,1) 100%);
+}
+
+/* Title section */
+
+.title-text {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    color: #3d3434;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+/* Main section */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main span {
+    font-size: 60px;
+
+}
+
+/* User area */
+
+.user {
+    text-align: center;
+    height: 100%;
+}
+
+.user-choice-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+
+/* Computer area */
+
+.computer {
+    text-align: center;
+    height: 100%;
+}
+
+.computer-choice-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+/* Input area */
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input button {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #70a670;
+    border: none;
+    border-radius: 40%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input button:hover {
+    background-color: grey;
+    width: 110px;
+    height: 55px;
+
+}
+
+
+/* Result area */
+
+.result {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+

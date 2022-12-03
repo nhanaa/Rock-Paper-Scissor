@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+
+        <header class="title">
+            <h1 class="title-text">Rock Paper Scissors</h1>
+        </header>
+
+        <section class="main">
+
+            <div class="user">
+                <h2 class="user-title">Your choice</h2>
+                <br>
+                <div class="user-choice-container">
+                    <span id="user-choice"></span>
+                </div>
+            </div>
+                    
+            <div class="computer">
+                <h2 class="computer-title">Computer choice</h2>
+                <br>
+                <div class="computer-choice-container">
+                    <span id="computer-choice"></span>
+                </div>
+            </div>
+
+        </section>
+
+        
+        <section class="input">
+            <button id="rock">✊</button>
+            <button id="paper">✋</button>
+            <button id="scissors">✌️</button>
+        </section>
+
+        <section class="result"> 
+            <h2>Result: <span id="result"></span></h2>
+        </section>
+
+        <script src="app.js"></script>
+    </body>
+</html>
